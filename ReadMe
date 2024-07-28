@@ -1,0 +1,14 @@
+create a node express mongodb project  of payment app backend in which user will be login without authentication  and every user will be given 1000 rs and the user can give money to the other user using there name  in registering the user take name and email  and the users can exchange the money which they are left similar like a payment application give me the file structure and the commands to download 
+include the mobile number and using the number transfer the mony and take the mony and mobile number from the req.params Additional Features
+Balance Top-up:
+
+Allow users to add money to their balance using various payment methods.
+Transaction History:
+
+Maintain a record of all transactions made by users.
+Allow users to view their transaction history, including details of each transaction
+try this router.get('/user/:mobileNumber/transactions', userController.getTransactionHistory);
+and this router.get('/user/:mobileNumber', userController.getUserDetails);
+ routes to get information with graphql  and give the whole code    
+
+there should not be any authentication only just register the user 
